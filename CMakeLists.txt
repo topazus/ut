@@ -49,7 +49,6 @@ if(NOT CMAKE_SKIP_INSTALL_RULES)
 endif()
 
 add_library(ut INTERFACE)
-add_library(Boost::ut ALIAS ut)
 
 if(NOT DEFINED INCLUDE_INSTALL_DIR)
   set(INCLUDE_INSTALL_DIR include/${PROJECT_NAME}-${PROJECT_VERSION}/include)
